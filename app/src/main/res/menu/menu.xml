@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/new_game"
+        android:title="Sort by">
+        <menu>
+            <item android:id="@+id/atoz"
+                android:title="A to Z"/>
+            <item android:id="@+id/ztoa"
+                android:title="Z to A"/>
+        </menu>
+    </item>
+    <item android:id="@+id/deleteAll"
+        android:title="Delete All"/>
+</menu>
